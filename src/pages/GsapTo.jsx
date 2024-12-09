@@ -1,11 +1,5 @@
 const GsapTo = () => {
   // TODO: Implement the gsap.to() method
-  useGSAP(() => {
-    gsap.to('#red-box', {
-      x: 250,
-
-    })
-  }, []);
 
   return (
     <main>
