@@ -1,3 +1,5 @@
+import { useGSAP } from "@gsap/react";
+
 const GsapFromTo = () => {
   // TODO: Implement the gsap.fromTo() method
 
