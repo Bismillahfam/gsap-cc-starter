@@ -10,6 +10,13 @@ const GsapStagger = () => {
         borderRadius: '100%',
         repeat: -1,
         yoyo: true,
+        stagger: {
+          amount: 1.5,
+          grid: [1, 1],
+          axis: 'y',
+          ease: 'bounce',
+          from: 'left'
+        }
       })
   }, [])
 
